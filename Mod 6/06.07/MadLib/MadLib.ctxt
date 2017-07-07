@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MadLib
+comment0.text=\n\ Psudocode\:\n\ This\ project\ goes\ as\ the\ following.\ Make\ an\ input\ statement.\n\ (All\ the\ users\ input\ should\ be\ stored\ in\ a\ variable\ so\ they\ can\ be\ used\ later)\n\ Make\ the\ first\ prompt\ a\ noun\ ask\ for\ the\ users\ input.\n\ Make\ the\ next\ prompt\ a\ verb\ and\ ask\ for\ users\ input.\n\ Make\ the\ next\ prompt\ an\ adjective\ and\ ask\ for\ users\ input.\n\ Make\ the\ next\ prompt\ a\ noun\ and\ ask\ for\ users\ input.\n\ Make\ the\ next\ prompt\ a\ verb\ and\ ask\ for\ users\ input.\n\ Make\ the\ next\ prompt\ an\ adverb\ and\ ask\ for\ users\ input.\n\ Make\ the\ next\ prompt\ a\ verb\ and\ ask\ for\ users\ input.\n\ Make\ a\ story\ but\ some\ space\ for\ the\ variables.\ Make\ sure\ to\ space\ appropriately.\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
