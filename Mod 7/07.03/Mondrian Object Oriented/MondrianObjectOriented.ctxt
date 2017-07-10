@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MondrianObjectOriented
+comment1.params=
+comment1.target=MondrianCreatorClass()
+comment2.params=myrtle\ color\ Thickness\ x1\ y1\ x2\ y2
+comment2.target=void\ lineOrBlock(Turtle,\ java.awt.Color,\ int,\ int,\ int,\ int,\ int)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
