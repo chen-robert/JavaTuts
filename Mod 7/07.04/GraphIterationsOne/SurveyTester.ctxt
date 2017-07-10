@@ -1,7 +1,9 @@
 #BlueJ class context
 comment0.target=SurveyTester
-comment1.params=myrtle\ x1\ x2\ y1\ y2
-comment1.target=void\ bar(Turtle,\ int,\ int,\ int,\ int)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3
+comment1.params=myrtle\ x1\ x2\ y1\ y2\ color
+comment1.target=void\ bar(Turtle,\ int,\ int,\ int,\ int,\ java.awt.Color)
+comment2.params=stringOfDigits
+comment2.target=int\ convertStringToInt(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
