@@ -11,6 +11,6 @@ import java.awt.*;     //graphics
 public class PanoramaTester
 {
     public static void main(){
-        System.out.println("xibba");
+        
     }
 }
