@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=ModuleProject
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment1.params=myrtle\ x1\ y1
+comment1.target=void\ plot(Turtle,\ int,\ int)
+comment2.params=stringOfDigits
+comment2.target=int\ place(java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

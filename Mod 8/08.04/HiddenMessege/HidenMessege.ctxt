@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HidenMessege
+comment1.params=stegoObject\ binaryArray
+comment1.target=void\ encodeMessage(Picture,\ int[])
+comment2.params=pic\ binary
+comment2.target=void\ decode(Picture,\ int[])
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

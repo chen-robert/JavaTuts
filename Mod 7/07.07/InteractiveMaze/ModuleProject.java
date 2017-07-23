@@ -1,75 +1,68 @@
 
 /**
- * An interactive version of the maze I created in module 07.01.
+ * A new graph with more data I created in module 07.01 in line plot form.
  *
  * @author Brendon Ho
  * @version 7/16/17
  */
 import java.awt.*;
-import java.util.Scanner;
+
+//start of tester class
+class Survey
+{//start of class
+    
+    //for creation of the bars on the graph
+    public static void plot(Turtle myrtle, int x1, int y1){
+        //myrtle properties
+        
+        myrtle.moveTo(x1,y1);
+
+    }//end o fmethod
+    
+    //convert string into chrome data
+    public int place(String stringOfDigits)
+    {//start of user-defined method 2
+       
+        int number = 0;                                         //declare and initialize the number variable
+                   
+        String subData = "";                                    //declare and initialize the subData variable
+        
+        for(int n = 0; n < stringOfDigits.length() ; n+=2)       //traverse the length of the loop by increments of 2
+        {//start of loop
+            subData = stringOfDigits.substring(n, n+2);       //pick out the substrings of 2 digit numbers
+            number = Integer.parseInt(subData);                 //parse a string to an integer   
+            
+            //accumulate the total
+        }//end of loop
+        
+        return number * 10;                                           //return the total calculated
+        
+    }//end of user-defined method 2
+}//end of class
+
 
 public class ModuleProject {
-
     public static void main(String[] args){
-        
-        //Scanner initiation
-        Scanner in = new Scanner(System.in);
-        
-        //World initiation
         World worldObj = new World();
-        Picture pictureObj = new Picture("Maze_Background.png");
-        worldObj.setPicture(pictureObj);
+        Picture graph = new Picture("Graph.jpg");
+        worldObj.setPicture(graph);
+        Turtle b = new Turtle(90, 400, worldObj);
         
-        //Turtle attributes
-        Turtle myrtle = new Turtle(91,139,worldObj);
-        myrtle.setHeight(12);                                       //set myrtle's height at 12 pixels
-        myrtle.setWidth(12);                                        //set myrtle's width at 12 pixels
-        myrtle.setHeading(90);                                      //set myrtle's heading to due East (90 degrees)
-        myrtle.show();                                              //show the Turtle object
+        Survey surv = new Survey();//object of type survey
         
-        //interactive program
-        System.out.println("How far do you want to move up? (145)");
-        int up1 = in.nextInt();
-        myrtle.forward(up1);
-        myrtle.turnRight(); 
-
-        System.out.println("How far do you want to move up? (50)");
-        int up2 = in.nextInt();
-        myrtle.forward(up2);
-        myrtle.turnLeft();
-
-        System.out.println("How far do you want to move up? (265)");
-        int up3 = in.nextInt();
-        myrtle.forward(up3);
-
-        System.out.println("How much would you like to turn? (152)");
-        int angle1 = in.nextInt();
-        myrtle.turn(angle1);
-
-        System.out.println("How far do you want to move up? (163)");
-        int up4 = in.nextInt();
-        myrtle.forward(up4);
-
-        System.out.println("How much would you like to turn? (-62)");
-        int angle2 = in.nextInt();
-        myrtle.turn(angle2);
-
-        System.out.println("How far do you want to move up? (105)");
-        int up5 = in.nextInt();
-        myrtle.forward(up5);
-
-        System.out.println("Which way do you want to turn (right)");
-        String dir1 = in.nextLine();
-        System.out.println(dir1);
-        myrtle.turnRight();
-
-        System.out.println("How far do you want to move up? (200)");
-        int up6 = in.nextInt();
-        myrtle.forward(up6);
-
-        System.out.println("Your name:");
-        String name = in.nextLine();
-        System.out.println(name + ", you have finished the maze. Congrats!!");
+        //assign the values to a string
+        String literal = "30";
+        
+        int convertSwift = surv.place(literal);
+        
+        System.out.println(convertSwift);
+        
+        surv.plot(b, 130, convertSwift);
+        surv.plot(b, 205, convertSwift - 30);
+        surv.plot(b, 280, convertSwift + 20);
+        surv.plot(b, 355, convertSwift - 150);
+        surv.plot(b, 430, convertSwift + 50);
+        
+        
     }//end of method
-
 }//end of class

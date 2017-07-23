@@ -1,9 +1,9 @@
 
 /**
- * The purpose of this program is to create a graph from a survey that I had given to people
+ * The purpose of this program is to create a graph from a survey comparing programming languages
  *
- * @author (Andrew Xia)
- * @version (07/18/2017)
+ * @author Brendon Ho
+ * @version 7/21/17
  */
 import java.awt.*;
 
