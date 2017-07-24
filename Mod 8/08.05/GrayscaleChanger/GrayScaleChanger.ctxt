@@ -1,3 +1,9 @@
 #BlueJ class context
 comment0.target=GrayScaleChanger
-numComments=1
+comment1.params=
+comment1.target=void\ toGrayscale()
+comment2.params=
+comment2.target=void\ replace()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
