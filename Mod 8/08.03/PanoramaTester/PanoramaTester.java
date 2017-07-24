@@ -246,7 +246,7 @@ class Panorama{
 //public class
 public class PanoramaTester
 {
-    public static void main(){
+    public static void main(String[] args){
         //initiate the classes
         TrueColors sure = new TrueColors();
         Panorama lilo = new Panorama();
