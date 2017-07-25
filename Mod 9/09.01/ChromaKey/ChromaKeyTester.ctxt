@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ChromaKeyTester
+comment1.params=subject\ background
+comment1.target=ChromaKey(Picture,\ Picture)
+comment2.params=
+comment2.target=void\ greenScreen()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -7,9 +7,9 @@ Founders Education Java Course answers.
 |---|:---:|:---:|
 |**Mod 06**         |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
 |**Mod 07** |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
-|**Mod 08** |[![Build Status](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
-|**Mod 09** |[![Build Status](https://img.shields.io/badge/status-in_progress-blue.svg)](https://ci.swift.org/job/oss-swift-incremental-RA-linux-ubuntu-16_10)|
-|**Mod 10** |[![Build Status](https://img.shields.io/badge/status-not_done-red.svg)](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)|
+|**Mod 08** |[![Build Status](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)|
+|**Mod 09** |[![Build Status](https://img.shields.io/badge/status-in_progress-blue.svg)](https://img.shields.io/badge/status-in_progress-blue.svg)|
+|**Mod 10** |[![Build Status](https://img.shields.io/badge/status-not_done-red.svg)](https://img.shields.io/badge/status-not_done-red.svg)|
 
 If you want to access the Java files:
 
