@@ -3,8 +3,8 @@
 Founders Education Java Course answers.
 
 
-| | **Status** ||
-|---|:---:|:---:|
+| | **Status** |
+|---|:---:|
 |**Mod 06**         |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
 |**Mod 07** |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
 |**Mod 08** |[![Build Status](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)|
