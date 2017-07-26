@@ -58,14 +58,16 @@ class HideMessage
             binaryInStringFormat += redValue;
         }
         
+        String cooler = binaryInStringFormat.substring(0,binary.length);
+        
         //print to system
-        System.out.println(binaryInStringFormat);
+        System.out.println(cooler);
         
         String eachEight = "";
         
         //for loop to convert from binary to char
-        for(int n = 0; n < binaryInStringFormat.length(); n += 8){
-            eachEight = (binaryInStringFormat.substring(n, n+8));
+        for(int n = 0; n < cooler.length(); n += 8){
+            eachEight = (cooler.substring(n, n+8));
             
             int first = Character.getNumericValue(eachEight.charAt(0)) * 128;
             int second = Character.getNumericValue(eachEight.charAt(1)) * 64;
@@ -92,8 +94,9 @@ public class HidenMessege
     public static void main(String[] args)
     {
         //the code
-        int[] bitArray = {0,1,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1};
-        //int[] bitArray = {0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,0,1,1,0,1,0,0,1,0,1,1,0,0,1,1,1,0,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,1};
+        //int[] bitArray = {0,1,1,0,0,0,1,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,0,1,1,1,0,0,1,0,0,1,1,1,1,0,0,1};
+        int[] bitArray = {0,1,0,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,0,1,0,1,1,0,1,0,0,1,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,1,1,0,1,1,0,1,0,0,1,0,1,1,0,0,1,1,1,0,1,1,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0,0,0,0,1};
+        
         
         //initialize
         Picture stegoObject = new Picture("earth.bmp");
