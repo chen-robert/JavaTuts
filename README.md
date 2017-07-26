@@ -5,9 +5,9 @@ Founders Education Java Course answers.
 
 | | **Status** |
 |---|:---:|
-|**Mod 06**         |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
+|**Mod 06**|[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
 |**Mod 07** |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
-|**Mod 08** |[![Build Status](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)](https://img.shields.io/badge/status-being_graded-yellowgreen.svg)|
+|**Mod 08** |[![Build Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](https://img.shields.io/badge/status-finished-brightgreen.svg)|
 |**Mod 09** |[![Build Status](https://img.shields.io/badge/status-in_progress-blue.svg)](https://img.shields.io/badge/status-in_progress-blue.svg)|
 |**Mod 10** |[![Build Status](https://img.shields.io/badge/status-not_done-red.svg)](https://img.shields.io/badge/status-not_done-red.svg)|
 
