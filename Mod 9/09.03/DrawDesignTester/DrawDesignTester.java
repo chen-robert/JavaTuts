@@ -13,6 +13,7 @@ import java.awt.Color;
 //public class
 public class DrawDesignTester{
     public static void main(String[] args){
-        DrawDesign asdf = new DrawDesign();
+        
+        DrawDesign dd = new DrawDesign();
     }//end of method
 }//end of class
