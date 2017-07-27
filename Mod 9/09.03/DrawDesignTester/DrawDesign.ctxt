@@ -1,5 +1,11 @@
 #BlueJ class context
 comment0.target=DrawDesign
-comment1.params=
-comment1.target=DrawDesign()
-numComments=2
+comment1.params=one\ two\ three
+comment1.target=DrawDesign(Picture,\ Picture,\ Picture)
+comment2.params=
+comment2.target=Picture\ designPattern()
+comment3.params=
+comment3.target=Picture\ twobytwo()
+comment4.params=
+comment4.target=Picture\ fourbyfour()
+numComments=5
