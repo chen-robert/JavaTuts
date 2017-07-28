@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=KaleidoscopeImage
+comment1.params=Canvas\ image\ Canvas2
+comment1.target=KaleidoscopeImage(Picture,\ Picture,\ Picture)
+comment2.params=
+comment2.target=Picture\ firstPanel()
+comment3.params=
+comment3.target=Picture\ secondPanel()
+comment4.params=
+comment4.target=Picture\ thirdPanel()
+comment5.params=
+comment5.target=Picture\ fourthPanel()
+numComments=6
