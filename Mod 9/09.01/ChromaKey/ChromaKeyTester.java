@@ -10,14 +10,14 @@ import java.awt.*;
 //chromakey class
 class ChromaKey{
     //private variables
-    private Picture sub = new Picture("sub.jpg");
-    private Picture back = new Picture("bg.jpg");
+    private Picture sub;
+    private Picture back;
     
     //ignore this
     //private Picture targetPicture = new Picture(sub.getWidth(), sub.getHeight());
     
-    //initialize
-    ChromaKey(Picture subject, Picture background){
+    //Init
+    public ChromaKey(Picture subject, Picture background){
         sub = subject;
         back = background;
     }
@@ -27,44 +27,32 @@ class ChromaKey{
         //explore pix
         sub.explore();
         back.explore();
-        
-        //rbg intial
-        int red = 0;
-        int green = 0;
-        int blue = 0;
-        
-        //nul colors
-        Color color = null;
-        Color color2 = null;
-        
-        //pixel intial
-        Pixel pixel = new Pixel(sub, 0, 0);
-        Pixel pixel2 = new Pixel(back, 0, 0);
+               
+        //Unused?
         Pixel targPixel = null;
         
         //for loops
         for(int y = 0; y < sub.getHeight(); y++){
             for(int x = 0; x < sub.getWidth(); x++){
-                pixel = sub.getPixel(x,y);
-                color = pixel.getColor();
+                Pixel pixel = sub.getPixel(x,y);
+                Color color = pixel.getColor();
                 
-                pixel2 = back.getPixel(x,y);
-                color2 = pixel2.getColor();
-                
+                //Get colors of the pixel
+                int red, green, blue;
                 red = color.getRed();
                 green = color.getGreen();
                 blue = color.getBlue();
                 
                 if (red >= 0 && red <= 85 && green >= 0 && green <= 75 && blue <= 100)
                 {
-                    color = new Color(red,green,blue);
                 
                 }else{
-                    
-                    color = pixel2.getColor();
-                    //pixel.setColor(color2);
+                    //Get second pixel color info
+                    Pixel pixel2 = back.getPixel(x,y);
+                    Color color2 = pixel2.getColor();
+                    //Set the color to the second pixel's color
+                    pixel.setColor(color2);
                 }
-                pixel.setColor(color);
             }//end of for loop
         }//end of for loop
         
